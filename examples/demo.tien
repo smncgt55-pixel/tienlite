@@ -1,0 +1,22 @@
+let x = 10
+let y = 3
+print(x + y)
+
+if x > y {
+  print("x is greater")
+} else {
+  print("y is greater")
+}
+
+fn add(a, b) {
+  return a + b
+}
+
+print(add(2, 5))
+
+for i in 0..4 {
+  print(i)
+}
+
+let model = learn([(0,0), (1,1), (2,4), (3,9)], 2)
+print(model(5))
